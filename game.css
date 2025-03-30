@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "alagard";
+    src: url(alagard.ttf);
+}
+
+
+
+body {
+    font-family: "alagard";
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: url('background.jpg') center/cover no-repeat;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e63946;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4d5a;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #e63946;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.description ul {
+    list-style: none;
+    padding: 0;
+}
+
+.description li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Screenshots */
+.screenshots img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Download Section */
+.download .btn {
+    margin: 10px;
+}
+
+/* About */
+.about {
+    background-color: #222;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    padding: 20px;
+    font-size: 0.9rem;
+}
